@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519751501450.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5244EDA",
+    "lastKnownWriteTime" : 1519746769,
+    "last_content_update" : 1519746769,
+    "path" : "~/repo/geofacet_seoul/seoul_population.csv",
+    "project_path" : "seoul_population.csv",
+    "properties" : {
+        "cursorPosition" : "5,68",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

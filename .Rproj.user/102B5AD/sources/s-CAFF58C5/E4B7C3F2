@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519745907184.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "128513862",
+    "id" : "E4B7C3F2",
+    "lastKnownWriteTime" : 1519754811,
+    "last_content_update" : 1519754811873,
+    "path" : "~/repo/geofacet_seoul/geofacet_seoul.Rmd",
+    "project_path" : "geofacet_seoul.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "34,13",
+        "marks" : "<:31,0\n>:31,0",
+        "scrollLine" : "24",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

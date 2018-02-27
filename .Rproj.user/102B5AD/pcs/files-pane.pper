@@ -1,0 +1,9 @@
+{
+    "path" : "~/repo/geofacet_seoul",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

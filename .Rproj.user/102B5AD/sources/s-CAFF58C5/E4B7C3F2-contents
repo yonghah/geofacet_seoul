@@ -1,0 +1,44 @@
+---
+title: "Seoul with Geofacet"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r}
+library(dplyr)
+library(lubridate)
+library(readr)
+library(geofacet)
+library(ggplot2)
+```
+
+서울의 구 grid를 불러오자.
+
+```{r}
+theme_update(text=element_text(family="AppleGothic"))
+seoul_grid <- read.csv("kr_seoul_district.csv")
+grid_preview(seoul_grid)
+```
+
+서울의 인구 변화 데이터를 불러오자
+원본은: http://stat.seoul.go.kr/octagonweb/jsp/WWS7/WWSDS7100.jsp
+```{r}
+pop <- read_csv("seoul_population.csv", skip = 2) %>%
+  select('yq'="기간", 'gu'="자치구", "pph"="세대당인구") %>%
+  mutate(yq=yq(gsub("/4", "", yq))) %>%
+  filter(gu!='합계')
+```
+
+
+```{r}
+ggplot(pop) +
+  geom_line(aes(yq, pph), color="red") +
+  facet_geo(~ gu, grid=seoul_grid, label='name') +
+  theme(axis.text.x = element_text(angle=45, hjust=1),
+        text = element_text(size=6)) +
+  labs(title="서울시 자치구별 세대당 인구 추이",
+       caption="Data Source: stat.seoul.go.kr",
+       x="연도(분기별)",
+       y="세대당 인구")
+```

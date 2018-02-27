@@ -1,0 +1,12 @@
+"0","ggplot(pop) +"
+"0","  geom_line(aes(yq, pph), color=""red"") +"
+"0","  facet_geo(~ gu, grid=seoul_grid, label='name') +"
+"0","  theme(axis.text.x = element_text(angle=45, hjust=1),"
+"0","        text = element_text(size=6)) +"
+"0","  labs(title=""서울시 자치구별 세대당 인구 추이"","
+"0","       caption=""Data Source: stat.seoul.go.kr"","
+"0","       x=""연도(분기별)"","
+"0","       y=""세대당 인구"")"
+"2","Note: You provided a user-specified grid. If this is a generally-useful grid, please consider submitting it to become a part of
+  the geofacet package. You can do this easily by calling: grid_submit(__grid_df_name__)
+"

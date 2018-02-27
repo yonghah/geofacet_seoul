@@ -1,0 +1,25 @@
+"0","pop <- read_csv(""seoul_population.csv"", skip = 2) %>%"
+"0","  select('yq'=""기간"", 'gu'=""자치구"", ""pph""=""세대당인구"") %>%"
+"0","  mutate(yq=yq(gsub(""/4"", """", yq))) %>%"
+"0","  filter(gu!='합계')"
+"2","Duplicated column names deduplicated: '계' => '계_1' [7], '남자' => '남자_1' [8], '여자' => '여자_1' [9], '계' => '계_2' [10], '남자' => '남자_2' [11], '여자' => '여자_2' [12]"
+"2","Parsed with column specification:
+cols(
+  기간 = col_character(),
+  자치구 = col_character(),
+  세대 = col_number(),
+  계 = col_number(),
+  남자 = col_number(),
+  여자 = col_number(),
+  계_1 = col_number(),
+  남자_1 = col_number(),
+  여자_1 = col_number(),
+  계_2 = col_number(),
+  남자_2 = col_number(),
+  여자_2 = col_number(),
+  `인구밀도(명/㎢)` = col_character(),
+  `면적(㎢)` = col_character(),
+  세대당인구 = col_double(),
+  `65세이상고령자` = col_number()
+)
+"

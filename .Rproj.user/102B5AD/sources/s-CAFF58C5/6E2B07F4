@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519746013757.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6E2B07F4",
+    "lastKnownWriteTime" : 1519746513,
+    "last_content_update" : 1519746513745,
+    "path" : "~/repo/geofacet_seoul/kr_seoul_district.csv",
+    "project_path" : "kr_seoul_district.csv",
+    "properties" : {
+        "cursorPosition" : "4,10",
+        "marks" : "<:0,0\n>:0,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

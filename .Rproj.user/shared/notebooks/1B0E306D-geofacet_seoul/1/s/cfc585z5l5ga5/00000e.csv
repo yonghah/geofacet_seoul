@@ -1,0 +1,6 @@
+"0","theme_update(text=element_text(family=""AppleGothic""))"
+"0","seoul_grid <- read.csv(""kr_seoul_district.csv"")"
+"0","grid_preview(seoul_grid)"
+"2","Note: You provided a user-specified grid. If this is a generally-useful grid, please consider submitting it to become a part of
+  the geofacet package. You can do this easily by calling: grid_submit(__grid_df_name__)
+"
