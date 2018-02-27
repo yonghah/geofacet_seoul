@@ -14,3 +14,6 @@ ggplot(pop) +
 ```
 
 ![geofacet](https://github.com/yonghah/geofacet_seoul/blob/master/.Rproj.user/shared/notebooks/1B0E306D-geofacet_seoul/1/s/ctawik7ymslp0/00000a.png)
+
+전체 코드는 여기
+https://github.com/yonghah/geofacet_seoul/blob/master/geofacet_seoul.Rmd
